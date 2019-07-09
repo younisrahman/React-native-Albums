@@ -10,7 +10,7 @@ import AlbumList from './src/components/AlbumList';
 //Creaate a component
 const App = () => (
   <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
